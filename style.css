@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgb(147, 126, 153);
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        display: block;
+    }
+    nav ul li a:hover {
+background-color: #79b370;
+border-radius: 5px;
+    }
+     p{
+        background: blue;
+        padding: 1rem;
+    }
