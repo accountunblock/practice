@@ -1,6 +1,7 @@
 body {
     background-color: gray;
-    font-size: 2rem;
+    font-size: 2em;
+    color: whitesmoke;
 }
 /* Base styles for figure, img, and figcaption */
 figure {
