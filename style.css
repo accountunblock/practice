@@ -1,50 +1,16 @@
 body {
+    font-size: 2rem;
     background-color: gray;
-    font-size: 2em;
-    color: whitesmoke;
-}
-/* Base styles for figure, img, and figcaption */
-figure {
-    margin: 0; /* Remove default margins */
+    color: azure;
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    display: inline-block; /* Keep figures in a row by default */
-    text-align: center; /* Center figcaption text */
-    width: 100%; /* Make figure take full width of the container */
-    max-width: 250px; /* Set a reasonable max width for the figure */
-    margin: 10px auto; /* Center the figure and add spacing */
 }
-
+h1 {
+    padding: 2rem;
+}
 img {
-    width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra bottom space below images */
-    max-width: 100%; /* Prevent images from overflowing */
-}
-
-figcaption {
-    font-size: 1rem; /* Responsive text size for captions */
-    padding: 10px 0; /* Add space above and below figcaption */
-    color: #333; /* Customize figcaption text color */
-}
-
-/* Media Queries for different screen sizes */
-
-/* For larger screens (e.g., tablets and above) */
-@media (min-width: 768px) {
-    figure {
-        max-width: 300px; /* Increase the figure size for larger screens */
-    }
-    figcaption {
-        font-size: 1.1rem; /* Slightly larger text for larger screens */
-    }
-}
-
-/* For desktop or large devices */
-@media (min-width: 1024px) {
-    figure {
-        max-width: 350px; /* Larger figures on desktop */
-    }
-    figcaption {
-        font-size: 1.2rem; /* Increase font size on desktop */
-    }
+    min-width: 250px;
+    width: 100%;
+    max-width: 100%;
 }
