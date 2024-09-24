@@ -3,15 +3,14 @@
 <html>
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>RESPONSIVE IMAGE</title>
+  <title>Hello, World!</title>
 </head>
 <body>
   <h1>
     Hello, World!
   </h1>
   <figure>
-    <img src="img/flash.png" alt="check" loading="lazy">
+    <img src="" alt="check" loading="lazy">
     <figcaption>tryal</figcaption>
   </figure>
 </body>
