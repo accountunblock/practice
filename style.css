@@ -1,3 +1,7 @@
+html{
+    background-color: gray;
+    font-size: 2rem;
+}
 /* Base styles for figure, img, and figcaption */
 figure {
     margin: 0; /* Remove default margins */
